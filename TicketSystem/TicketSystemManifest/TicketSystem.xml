@@ -19,7 +19,7 @@
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="TicketSystem" />
   <Description DefaultValue="TicketSystem"/>
-  <IconUrl DefaultValue="https://github.com/jcanady6/TicketSystem/Images/TicketRed64.png"/>
+  <IconUrl DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/Images/TicketRed64.png"/>
 
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -41,7 +41,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://github.com/jcanady6/TicketSystem/MessageRead.html"/>
+        <SourceLocation DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/MessageRead.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -100,13 +100,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="TicketRed16" DefaultValue="https://github.com/jcanady6/TicketSystem/Images/TicketRed16.png"/>
-        <bt:Image id="TicketRed32" DefaultValue="https://github.com/jcanady6/TicketSystem/Images/TicketRed32.png"/>
-        <bt:Image id="TicketRed80" DefaultValue="https://github.com/jcanady6/TicketSystem/Images/TicketRed80.png"/>
+        <bt:Image id="TicketRed16" DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/Images/TicketRed16.png"/>
+        <bt:Image id="TicketRed32" DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/Images/TicketRed32.png"/>
+        <bt:Image id="TicketRed80" DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/Images/TicketRed80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://github.com/jcanady6/TicketSystem/Functions/FunctionFile.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://github.com/jcanady6/TicketSystem/MessageRead.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/Functions/FunctionFile.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://github.com/jcanady6/TicketSystem/tree/master/TicketSystemWeb/MessageRead.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
