@@ -19,15 +19,11 @@
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="TicketSystem" />
   <Description DefaultValue="TicketSystem"/>
-  <IconUrl DefaultValue="https://github.com/jcanady6/TicketSystem/blob/master/TicketSystemWeb/Images/TicketRed64.png"/>
+  <IconUrl DefaultValue="https://imgur.com/PSSESTN.png"/>
+<HighResolutionIconUrl DefaultValue="https://imgur.com/SAI5BzY.png"/>
+  
+	<SupportUrl DefaultValue="https://jcanady6.github.io/TicketSystem"/>
 
-  <SupportUrl DefaultValue="http://www.contoso.com" />
-  <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
-  <AppDomains>
-    <AppDomain>AppDomain1</AppDomain>
-    <AppDomain>AppDomain2</AppDomain>
-    <AppDomain>AppDomain3</AppDomain>
-  </AppDomains>
   <!--End Basic Settings. -->
   
   <Hosts>
@@ -100,9 +96,9 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="TicketRed16" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/master/TicketSystemWeb/Images/TicketRed16.png"/>
-        <bt:Image id="TicketRed32" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/master/TicketSystemWeb/Images/TicketRed32.png"/>
-        <bt:Image id="TicketRed80" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/master/TicketSystemWeb/Images/TicketRed80.png"/>
+        <bt:Image id="TicketRed16" DefaultValue="https://imgur.com/yfRbJKV.png"/>
+        <bt:Image id="TicketRed32" DefaultValue="https://imgur.com/GVrV7kt.png"/>
+        <bt:Image id="TicketRed80" DefaultValue="https://imgur.com/eH69h7A.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/master/TicketSystemWeb/Functions/FunctionFile.html"/>

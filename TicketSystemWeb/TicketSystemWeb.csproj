@@ -108,6 +108,7 @@
     <Content Include="Functions\FunctionFile.html" />
     <Content Include="Functions\FunctionFile.js" />
     <Content Include="Images\Close.png" />
+    <Content Include="Images\TicketRed124.png" />
     <Content Include="Images\TicketRed16.png" />
     <Content Include="Images\TicketRed32.png" />
     <Content Include="Images\TicketRed64.png" />
