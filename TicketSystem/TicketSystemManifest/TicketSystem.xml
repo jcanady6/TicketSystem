@@ -19,8 +19,8 @@
 	<!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
 	<DisplayName DefaultValue="TicketSystem" />
 	<Description DefaultValue="TicketSystem"/>
-	<IconUrl DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/Images/TicketRed64.png"/>
-	<HighResolutionIconUrl DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/Images/TicketRed124.png"/>
+	<IconUrl DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed64.png"/>
+	<HighResolutionIconUrl DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed124.png"/>
 
 	<SupportUrl DefaultValue="https://pineland.net/contact-us/" />
 
@@ -37,7 +37,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -96,13 +96,13 @@
 
 		<Resources>
 			<bt:Images>
-				<bt:Image id="TicketRed16" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/Images/TicketRed16.png"/>
-				<bt:Image id="TicketRed32" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/Images/TicketRed32.png"/>
-				<bt:Image id="TicketRed80" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/Images/TicketRed80.png"/>
+				<bt:Image id="TicketRed16" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed16.png"/>
+				<bt:Image id="TicketRed32" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed32.png"/>
+				<bt:Image id="TicketRed80" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed80.png"/>
 			</bt:Images>
 			<bt:Urls>
-				<bt:Url id="functionFile" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/Functions/FunctionFile.html"/>
-				<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://github.com/jcanady6/TicketSystem/blob/722294a2e0d2290ce4100c077269b99b46ccde90/TicketSystemWeb/MessageRead.html"/>
+				<bt:Url id="functionFile" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Functions/FunctionFile.html"/>
+				<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/MessageRead.html"/>
 			</bt:Urls>
 			<bt:ShortStrings>
 				<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
