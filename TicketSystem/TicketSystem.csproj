@@ -24,6 +24,7 @@
     <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <ActivePublishProfile>FolderProfile</ActivePublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
