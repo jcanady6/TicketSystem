@@ -22,7 +22,7 @@
 	<IconUrl DefaultValue="https://imgur.com/PSSESTN.png"/>
 	<HighResolutionIconUrl DefaultValue="https://imgur.com/SAI5BzY.png"/>
 
-	<SupportUrl DefaultValue="https://pineland.net/contact-us/" />
+	<SupportUrl DefaultValue="https://jcanady6.github.io/TicketSystem" />
 
 	<!--End Basic Settings. -->
 
@@ -37,7 +37,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://raw.githubusercontent.com/jcanady6/TicketSystem/e1e99c223e01ef6e75f645bfee9db369459dd910/TicketSystemWeb/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -101,8 +101,8 @@
 				<bt:Image id="TicketRed80" DefaultValue="https://imgur.com/eH69h7A.png"/>
 			</bt:Images>
 			<bt:Urls>
-				<bt:Url id="functionFile" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Functions/FunctionFile.html"/>
-				<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/MessageRead.html"/>
+				<bt:Url id="functionFile" DefaultValue="https://raw.githubusercontent.com/jcanady6/TicketSystem/master/TicketSystemWeb/Functions/FunctionFile.html"/>
+				<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://raw.githubusercontent.com/jcanady6/TicketSystem/e1e99c223e01ef6e75f645bfee9db369459dd910/TicketSystemWeb/MessageRead.html"/>
 			</bt:Urls>
 			<bt:ShortStrings>
 				<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
