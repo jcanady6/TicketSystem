@@ -43,7 +43,7 @@
 		</Form>
 	</FormSettings>
 
-	<Permissions>ReadWriteItem</Permissions>
+	<Permissions>ReadItem</Permissions>
 	<Rule xsi:type="RuleCollection" Mode="Or">
 		<Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
 	</Rule>
