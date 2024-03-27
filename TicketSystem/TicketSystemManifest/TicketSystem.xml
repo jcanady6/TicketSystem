@@ -1,11 +1,11 @@
-﻿﻿﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Created:ce44715c-8c4e-446b-879c-ea9ebe0f09c8-->
 <OfficeApp
-	xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
-	xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
-	xsi:type="MailApp">
+          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+          xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
+          xsi:type="MailApp">
 
 	<!-- Begin Basic Settings: Add-in metadata, used for all versions of Office unless override provided. -->
 
@@ -43,7 +43,7 @@
 		</Form>
 	</FormSettings>
 
-	<Permissions>ReadItem</Permissions>
+	<Permissions>ReadWriteItem</Permissions>
 	<Rule xsi:type="RuleCollection" Mode="Or">
 		<Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
 	</Rule>
@@ -96,9 +96,9 @@
 
 		<Resources>
 			<bt:Images>
-				<bt:Image id="TicketRed16" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed16.png"/>
-				<bt:Image id="TicketRed32" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed32.png"/>
-				<bt:Image id="TicketRed80" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed80.png"/>
+				<bt:Image id="icon16" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed16.png"/>
+				<bt:Image id="icon32" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed32.png"/>
+				<bt:Image id="icon80" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Images/TicketRed80.png"/>
 			</bt:Images>
 			<bt:Urls>
 				<bt:Url id="functionFile" DefaultValue="https://jcanady6.github.io/TicketSystem/TicketSystemWeb/Functions/FunctionFile.html"/>
